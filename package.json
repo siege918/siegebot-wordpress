@@ -1,0 +1,19 @@
+{
+  "name": "siegebot-wordpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siege918/siegebot-wordpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siege918/siegebot-wordpress/issues"
+  },
+  "homepage": "https://github.com/siege918/siegebot-wordpress#readme"
+}
