@@ -24,8 +24,6 @@ function latestPostsPromise(message, config, callback) {
 		postCount = 1;
 	}
 	
-	console.log("Postcount: " + postCount);
-	
 	http.get({
 	host: config.host,
 	path: "/feed/"
@@ -43,7 +41,6 @@ function latestPostsPromise(message, config, callback) {
 				
 				for (var i = 0; i < postCount && i < result.rss.channel[0].item.length; i++)
 				{
-					console.log(i);
 					var item = result.rss.channel[0].item[i];
 					
 					var nextPost = "**" + item.title +
@@ -61,7 +58,7 @@ function latestPostsPromise(message, config, callback) {
 					messageText += nextPost;
 				}
 				
-				message.channel.sendMessage(messageText);
+				message.channel.send(messageText);
 				callback("success");
 			});
 		});
