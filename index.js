@@ -1,4 +1,5 @@
 var parseXML = require('xml2js').parseString;
+var http = require('http');
 
 module.exports = {
 	latestPosts: latestPosts
