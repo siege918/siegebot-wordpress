@@ -7,7 +7,7 @@ module.exports = {
 function latestPosts(message, config)
 {
 	return new Promise(function(resolve) {
-		echoPromise(message, config, resolve);
+		latestPostsPromise(message, config, resolve);
 	});
 }
 
