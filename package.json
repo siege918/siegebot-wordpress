@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/siege918/siegebot-wordpress/issues"
   },
-  "homepage": "https://github.com/siege918/siegebot-wordpress#readme"
+  "homepage": "https://github.com/siege918/siegebot-wordpress#readme",
+  "dependencies": {
+    "xml2js": "^0.4.19"
+  }
 }
